@@ -30,9 +30,18 @@
 }
 .icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     cursor: pointer;
+}
+#loginNav{
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+#loginNav:hover{
+  opacity: 1;
+  
 }
 #home .form-control{
     background-color: #414141;
