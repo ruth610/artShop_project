@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../public/fotter.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand" id="home">
+    <div class="container navbar-nav d-flex justify-content-between" id="navbar">
+      <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-icons ml-auto">
+        <ul class="navbar-nav icons">
+          <li class="nav-items"><a class="nav-link" href="../contact/contact.html">Contacts</a></li>
+            <li class="nav-items" id="loginNav"><img src="../assets/icons/lock.png" alt="" width="15">Sign In</li>
+            <li class="nav-items"><a href="" class="nav-link"><img src="../assets/icons/grocery-store.png" alt="" width="20"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="logo d-flex justify-content-center mt-4" id="content">
+    <a class="navbar-brand nav-link" href="#" >Art Shop</a>
+  </div>
+  <div id="hero-section" class="d-flex align-items-center justify-content-center text-center">
+    <div class="container text-brand">
+      <h1 class="display-4 mb-4">Discover Unique Art Pieces</h1>
+      <p class="text-50 lead">Transform your space with one-of-a-kind creations.</p>
+      <button class="btn btn-lg mt-3" onclick="redirectToShop1()">Shop Now</button>
+    </div>
+  </div>
+  <div class="scluptureSection">
+    <h3 class="topic">Sclupture</h3>
+    <div class="slider">
+      <a class="prev" data-section="sculpture"><img src="../assets/icons/left-arrow.png" alt="" width="40"></a>
+      <div class="products d-grid sclupture">
+      </div>
+      <a class="next" data-section="sculpture"><img src="../assets/icons/right-arrow.png" alt="" width="40"></a>
+    </div>
+  </div>
+  <div class="paintingSection">
+    <h3 class="topic">Painting</h3>
+    <div class="slider">
+      <a class="prev" data-section="painting"><img src="../assets/icons/left-arrow.png" alt="" width="40"></a>
+      <div class="products d-grid painting">
+      </div>
+      <a class="next" data-section="painting"><img src="../assets/icons/right-arrow.png" alt="" width="40"></a>
+    </div>
+  </div>
+  <div class="natureSection">
+    <h3 class="topic">Nature</h3>
+    <div class="slider">
+      <a class="prev" data-section="nature"><img src="../assets/icons/left-arrow.png" alt="" width="40"></a>
+      <div class="products d-grid nature">
+      </div>
+      <a class="next" data-section="nature"><img src="../assets/icons/right-arrow.png" alt="" width="40"></a>
+    </div>
+  </div>
+  <!-- About Us Section -->
+<div id="about-us" class="container my-5 observe">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2 class="about-title">About Our Art Shop</h2>
+      <p class="about-description">
+        Welcome to our art shop, where creativity meets passion. We offer a wide variety of unique and handcrafted art pieces by talented artists from around the world. Explore our collection and find the perfect piece to beautify your space.
+      </p>
+      <button class="btn" onclick="redirectToShop()">Explore Our Collection</button>
+    </div>
+    <div class="col-md-6">
+      <img src="../assets/images/banner2.jpg" alt="Art Shop" class="img-fluid about-image">
+    </div>
+  </div>
+</div>
+<footer class="footer_container bg-white text-dark" style="border-top: 1px solid silver;">
+  <div class="container d-flex flex-row row">
+      <div class="row">
+          <!-- Left Section -->
+          <div class="col-md-6 " style="border-right:1px solid silver; max-width:43%">
+              <img src="../assets/images/photo_2025-01-08_12-52-58.jpg" alt="Logo" class="img-fluid mb-2" style="max-width: 250px;">
+              <p>Transforming Walls into Masterpieces – Your Art, Your Style!</p>
+               <!-- Social Media Section -->
+      <div class="d-flex flex-row" style="max-width: 30%;">
+          <div class="col-auto">
+              <a href="#" class="social_icon rounded-circle d-flex justify-content-center align-items-center mx-2" style="width: 40px; height: 40px; background-color: #82B440; font-size: 18px; color: #ffffff; transition: background-color 0.3s ease, transform 0.3s ease; text-decoration: none;">
+                  <i class="bx bxl-instagram"></i>
+              </a>
+          </div>
+          <div class="col-auto">
+              <a href="#" class="social_icon rounded-circle d-flex justify-content-center align-items-center mx-2" style="width: 40px; height: 40px; background-color: #82B440; font-size: 18px; color: #ffffff; transition: background-color 0.3s ease, transform 0.3s ease; text-decoration: none;">
+                  <i class="bx bxl-facebook"></i>
+              </a>
+          </div>
+          <div class="col-auto">
+              <a href="#" class="social_icon rounded-circle d-flex justify-content-center align-items-center mx-2" style="width: 40px; height: 40px; background-color: #82B440; font-size: 18px; color: #ffffff; transition: background-color 0.3s ease, transform 0.3s ease; text-decoration: none;">
+                  <i class="bx bxl-linkedin"></i>
+              </a>
+          </div>
+          <div class="col-auto">
+              <a href="#" class="social_icon rounded-circle d-flex justify-content-center align-items-center mx-2" style="width: 40px; height: 40px; background-color: #82B440; font-size: 18px; color: #ffffff; transition: background-color 0.3s ease, transform 0.3s ease; text-decoration: none;">
+                  <i class="bx bxl-twitter"></i>
+              </a>
+          </div>
+      </div>
+      </div>
+          <!-- Right Section -->
+           <div class="col-md-6">
+              <h2>Contact Us</h2>
+              <p><i class="bx bx-map"></i> Art Shop Addis Ababa, Ethiopia</p>
+              <p><i class="bx bx-phone"></i> +1 234 567 890</p>
+              <p><i class="bx bx-envelope"></i> example@email.com</p>
+          </div>
+      </div>
+  
+  </div>
+</footer>
+<div class="footer_copyright text-center bg-dark text-white " style="margin: 0; height: 40px; padding-top:0.3rem">
+  © Copyright 2024 • ArtShop, LLC • Crafted with Creativity
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../dist/home/home.js"></script>
+</body>
+</html>

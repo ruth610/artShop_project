@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand" id="home">
+        <div class="container navbar-nav d-flex justify-content-between" id="navbar">
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav-icons ml-auto">
+            <ul class="navbar-nav icons">
+              <li class="nav-items"><a class="nav-link" href="#">Contacts</a></li>
+                <li class="nav-items" id="loginNav"><a href="" class="nav-link d-flex justify-content-between align-items-center"><img src="../assets/icons/lock.png" alt="" width="15">Sign In</a></li>
+                <li class="nav-items"><a href="" class="nav-link"><img src="../assets/icons/grocery-store.png" alt="" width="20"></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="container mt-5">
+          <div class="productP">
+            <!-- Product Details -->
+            <div class="col-md-6 product-image-wrapper">
+              <p class="new">New</p>
+              <img id="product-image" src="" alt="Art Piece" class="img-fluid">
+            </div>
+            <div class="col-md-6 more-info">
+              <h2 id="product-title"></h2>
+              <div class="price-desc">
+                <p id="discount">$30.50</p>
+                <p id="product-price"></p>
+                <p id="save">SAVE 5%</p>
+              </div>
+              <p id="product-description"></p>
+              <button class="btn" onclick="redirectToOrderPage1()">Shop Now</button>
+            </div>
+          </div>
+        </div>
+    <script src="../dist/productPage/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #signUp{
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #signUp .button,#signUp a:focus {
+    font-size: 16px;
+  }
+  #signUp .btn,#signUp .btn:hover{
+    background: #788954;
+    border: 1px solid rgb(129, 127, 127);
+  }
+
+  #signUp .btn:hover{
+    background-color: white;
+    border: 0.5px solid black;
+    color: gray;
+  }
+  #signUp button,#signUp a{
+    background-color: white;
+    color: #788954;
+  }
+  #signUp button:focus,#signUp button:hover,#signUp a:focus,#signUp a:hover{
+    border: 0;
+    outline: none;
+    text-decoration: underline;
+    color: #788954;
+  }
+  .loginAndsignup{
+    width: 50%;
+    margin: 0 auto;
+  }
+  
