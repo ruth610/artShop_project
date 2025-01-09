@@ -126,8 +126,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Initial render after fetching data
-  fetchArtworks();
-  renderProducts();
+  fetchArtworks().then(() => {
+    renderProducts();
+  });
 
   // Background image rotation
   let currentIndex: number = 0;

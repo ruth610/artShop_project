@@ -107,8 +107,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener("resize", () => {
         renderProducts();
     });
-    fetchArtworks();
-    renderProducts();
+    fetchArtworks().then(() => {
+        renderProducts();
+    });
     let currentIndex = 0;
     const changeBackgroundImage = () => {
         const heroSection = document.getElementById("hero-section");
